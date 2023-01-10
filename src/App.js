@@ -20,11 +20,15 @@ function App() {
   console.log(user);
   return (
     <div className="App">
-      {user ? <Home user={user} /> : <Login />}
-
-      <Routes>
-        <Route path="/details/:slug" element={<Detail />} />
-      </Routes>
+      {user ? (
+        <Routes>
+          <Route path="/" element={<Home user={user} />} />
+          <Home user={user} />
+          <Route path="/details/:slug" element={<Detail />} />
+        </Routes>
+      ) : (
+        <Login />
+      )}
     </div>
   );
 }
