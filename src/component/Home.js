@@ -1,6 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import { auth } from "../services/firebase";
+import { useState } from "react";
 import moment from "moment";
 import JobList from "../services/JobList";
 import InfiniteScroll from "react-infinite-scroller";

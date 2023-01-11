@@ -12,7 +12,7 @@ const Login = () => {
               <div className="p-6 sm:p-16">
                 <div className="space-y-4">
                   <h2 className="mb-8 text-2xl text-cyan-900 font-bold">
-                    Sign in to unlock the <br /> jobs list.
+                    Sign in to unlock <br /> jobs list.
                   </h2>
                 </div>
                 <div className="mt-16 grid space-y-4">

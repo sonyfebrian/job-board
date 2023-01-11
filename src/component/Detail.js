@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "./Navbar";
-import JobList from "../services/JobList";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { Link } from "react-router-dom";

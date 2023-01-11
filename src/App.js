@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useState, useEffect } from "react";
 
@@ -23,7 +22,7 @@ function App() {
       {user ? (
         <Routes>
           <Route path="/" element={<Home user={user} />} />
-          <Home user={user} />
+
           <Route path="/details/:slug" element={<Detail />} />
         </Routes>
       ) : (
